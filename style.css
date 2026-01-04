@@ -1,0 +1,1946 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #111;
+}
+
+/* 1). TITLE / NAVBAR */
+
+.navbar {
+  background-color: #152237;
+  width: 1680px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 80px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 84px;
+  height: 31px;
+  top: 25px;
+  left: 98px;
+}
+
+.formations {
+  top: 31px;
+  left: 350px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-recherche {
+  width: 477px;
+  height: 40px;
+  top: 20px;
+  left: 603px;
+  border-radius: 6px;
+  border: 1px solid white;
+  padding: 8px 14px;
+  background-color: #152237;
+}
+
+.rechercher {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rechercher input {
+  width: 400px;
+  background-color: #152237;
+  border: none;
+}
+
+.rechercher input::placeholder {
+  width: 90px;
+  height: 18px;
+  top: 31px;
+  left: 620px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.rechercher button {
+  background-color: #152237;
+  border: none;
+}
+
+.rechercher i {
+  width: 22.06px;
+  height: 24px;
+  top: 28px;
+  left: 1047.83px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.buttons .connexion {
+  width: 130px;
+  height: 40px;
+  top: 20px;
+  left: 1300px;
+  border-radius: 6px;
+  color: #000000;
+  background-color: white;
+  padding: 8px 18px;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+
+.connexion {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.buttons .inscription {
+  width: 130px;
+  height: 40px;
+  top: 20px;
+  left: 1449px;
+  border-radius: 6px;
+  color: #000000;
+  background: linear-gradient(rgba(68, 221, 138, 1), rgba(21, 183, 226, 1));
+  padding: 8px 18px;
+  border: 1px solid;
+}
+
+.inscription {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.banner {
+  width: 1680px;
+  height: 451px;
+  top: -2px;
+  background: linear-gradient(rgba(68, 221, 138, 0.6), rgba(21, 183, 226, 0.6)),
+    url(./assets/bg-header.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_banner {
+  text-align: center;
+  color: #152237;
+}
+
+.div_banner h1 {
+  height: 59px;
+  top: 149px;
+  left: 329px;
+  color: #152237;
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-style: bold;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.div_banner p {
+  height: 24px;
+  top: 216px;
+  left: 484px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-style: medium;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+  color: #000000;
+}
+
+.savoir_plus {
+  width: 130px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  background: #ffffff;
+}
+
+.savoir_plus a {
+  width: 102px;
+  height: 18px;
+  top: 11px;
+  left: 14px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*  2). LES FORMATIONS POPULAIRES */
+
+.sec_populaire {
+  width: 1680px;
+  height: 632px;
+  top: 530px;
+  color: #ffffff;
+  padding: 70px 80px;
+  text-align: center;
+}
+
+.sec_populaire h2 {
+  top: 30px;
+  left: 97px;
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 72px;
+  letter-spacing: -1.5%;
+  color: #152237;
+  text-align: left;
+}
+
+.populaires {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+  margin-bottom: 40px;
+}
+
+.div_populaire {
+  width: 307px;
+  height: 362px;
+  top: 136px;
+  left: 100px;
+  text-align: left;
+}
+
+.img_populaire {
+  background: #44dd8a;
+  width: 305px;
+  height: 206px;
+  position: relative;
+}
+
+.price_populaire {
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+  padding: 4px 8px;
+  border-radius: 93px;
+  color: #ffffff;
+  background: #152237;
+}
+
+.price_populaire p {
+  top: 332px;
+  left: 285px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -1.5%;
+  border-radius: 93px;
+  color: #ffffff;
+  background: #152237;
+}
+
+.h4_populaire {
+  top: 363px;
+  left: 114px;
+  opacity: 1;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -1.5%;
+  color: #152237;
+  padding: 10px 0px 5px 0px;
+}
+
+.nom_populaire {
+  width: 293px;
+  height: 25px;
+  top: 402px;
+  left: 114px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  color: #152237;
+  padding-bottom: 30px;
+}
+
+.stars_populaire {
+  color: #ffc700;
+  width: 116.13px;
+  height: 19.2px;
+  top: 432px;
+  left: 114px;
+  padding-bottom: 30px;
+}
+
+.desc_populaire {
+  width: 280px;
+  height: 36px;
+  top: 462px;
+  left: 114px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #152237;
+  padding-bottom: 30px;
+}
+
+.button_populaire {
+  width: 225px;
+  height: 40px;
+  left: -48px;
+  border-radius: 6px;
+  background: #152237;
+  color: #ffffff;
+}
+
+.button_populaire a {
+  width: 172px;
+  height: 18px;
+  top: 11px;
+  left: -21px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+/* 3). LES FORMATIONS RÉCENTES */
+
+.sec_recentes {
+  width: 1680px;
+  height: 632px;
+  top: 1162px;
+  color: #ffffff;
+  background: #152237;
+  padding: 70px 80px;
+  text-align: center;
+}
+
+.sec_recentes h2 {
+  top: 30px;
+  left: 97px;
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 72px;
+  letter-spacing: -1.5%;
+  color: #ffffff;
+  text-align: left;
+}
+
+.recentes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+  margin-bottom: 40px;
+}
+
+.div_recentes {
+  width: 305px;
+  height: 362px;
+  top: 136px;
+  left: 100px;
+  text-align: left;
+}
+
+.img_recentes {
+  background: #44dd8a;
+  width: 305px;
+  height: 206px;
+  position: relative;
+}
+
+.price_recentes {
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+  padding: 4px 8px;
+  border-radius: 93px;
+  color: #000000;
+  background: #ffffff;
+}
+
+.price_recentes p {
+  top: 332px;
+  left: 285px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -1.5%;
+  color: #152237;
+  background: #ffffff;
+}
+
+.h4_recentes {
+  top: 363px;
+  left: 114px;
+  opacity: 1;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -1.5%;
+  color: #ffffff;
+  padding: 10px 0px 5px 0px;
+}
+
+.nom_recentes {
+  width: 252px;
+  height: 25px;
+  top: 402px;
+  left: 114px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.stars_recentes {
+  color: #ffc700;
+  width: 116.13px;
+  height: 19.2px;
+  top: 432px;
+  left: 114px;
+  padding-bottom: 30px;
+}
+
+.desc_recentes {
+  width: 280px;
+  height: 36px;
+  top: 462px;
+  left: 114px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.button_recentes {
+  width: 225px;
+  height: 40px;
+  left: -48px;
+  border-radius: 6px;
+  color: #152237;
+  background: #ffffff;
+}
+
+.button_recentes a {
+  width: 172px;
+  height: 18px;
+  top: 11px;
+  left: -21px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+  color: #152237;
+}
+
+/* 4). AVIS CLIENTS */
+
+.sec_clients {
+  width: 1680px;
+  height: 597px;
+  top: 1794px;
+  background-color: white;
+}
+
+.div_h2_clients {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.h2_clients {
+  top: 58px;
+  left: 695px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-style: black;
+  font-size: 40px;
+  line-height: 36px;
+  letter-spacing: -1.5%;
+  color: #152237;
+}
+
+.div_clients {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+}
+
+.div_juliette {
+  width: 689px;
+  height: 306px;
+  top: 160px;
+  left: 150px;
+}
+
+.div_juliette img {
+  top: 160px;
+  left: 150px;
+  border-radius: 100px;
+}
+
+.nom_juliette {
+  width: 686px;
+  height: 36px;
+  top: 300px;
+  left: 153px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -1.5%;
+  color: #152237;
+}
+
+.stars_juliette {
+  width: 116.13px;
+  height: 19.2px;
+  top: 343px;
+  left: 152px;
+  color: #ffc700;
+}
+
+.desc_juliette {
+  width: 686px;
+  height: 90px;
+  top: 376px;
+  left: 153px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -1.5%;
+  color: #000000;
+}
+
+.div_camille {
+  width: 665px;
+  height: 306px;
+  top: 160px;
+  left: 863px;
+}
+
+.div_camille img {
+  top: 160px;
+  left: 863px;
+  border-radius: 100px;
+}
+
+.nom_camille {
+  width: 656px;
+  height: 36px;
+  top: 300px;
+  left: 872px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -1.5%;
+  color: #152237;
+}
+
+.stars_camille {
+  width: 116.13px;
+  height: 19.2px;
+  top: 346px;
+  left: 874px;
+  color: #ffc700;
+}
+
+.desc_camille {
+  width: 656px;
+  height: 90px;
+  top: 376px;
+  left: 872px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -1.5%;
+  color: #000000;
+}
+
+/* 5). LES AVANTAGES KLIVIO */
+
+.sec_avantages {
+  width: 1680px;
+  height: 641px;
+  top: 2391px;
+  left: 1px;
+  background-color: #f5f5f5;
+}
+
+.div_all_avantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.div_avantages h4 {
+  width: 686px;
+  height: 47px;
+  top: 79px;
+  left: 98px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-style: black;
+  font-size: 40px;
+  line-height: 36px;
+  letter-spacing: -1.5%;
+  color: #152237;
+  margin-bottom: 35px;
+}
+
+.div_avantages_list {
+  width: 616px;
+  height: 295px;
+  top: 169px;
+  left: 163px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.5%;
+  color: #000000;
+  margin-bottom: 100px;
+}
+
+.div_avantages_ul {
+  list-style: none;
+}
+
+.div_avantages_ul li {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.div_avantages_ul li img {
+  display: flex;
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+/* 6). CRÉEZ VOS FORMATIONS AVEC KLIVIO */
+
+.sec_formations {
+  width: 1680px;
+  height: 641px;
+  top: 3032px;
+  left: 1px;
+  background-color: #44dd8a;
+}
+
+.div_all_formations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.img_formations {
+  width: 729px;
+  height: 487px;
+  top: 76px;
+  left: 101px;
+}
+
+.div_formations_h4 {
+  width: 686px;
+  height: 93px;
+  top: 79px;
+  left: 912px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-style: black;
+  font-size: 40px;
+  line-height: 36px;
+  letter-spacing: -1.5%;
+  color: #152237;
+  margin-bottom: 35px;
+}
+
+.div_formations_list {
+  width: 616px;
+  height: 352px;
+  top: 211px;
+  left: 977px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.5%;
+  color: #152237;
+}
+
+.div_formations_ul {
+  list-style: none;
+}
+
+.div_formations_ul li {
+  margin-bottom: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.div_formations_ul li img {
+  display: flex;
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+/* 7). À PROPOS DE KLIVIO */
+
+.sec_propos {
+  width: 1680px;
+  height: 740px;
+  top: 3673px;
+  background-color: #f5f5f5;
+}
+
+.div_all_propos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div_propos {
+  width: 686px;
+  height: 372px;
+  top: 184px;
+  left: 103px;
+  color: #152237;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.div_propos_h4 {
+  width: 686px;
+  height: 36px;
+  top: 184px;
+  left: 103px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-style: black;
+  font-size: 40px;
+  line-height: 36px;
+  letter-spacing: -1.5%;
+  color: #152237;
+  margin-bottom: 50px;
+}
+
+.div_propos_p {
+  width: 686px;
+  height: 295px;
+  top: 261px;
+  left: 103px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -1.5%;
+  color: #152237;
+}
+
+.img_propos {
+  width: 830px;
+  height: 740px;
+  left: 850px;
+  background-color: #152237;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_propos img {
+  width: 430px;
+  height: 155px;
+  top: 292px;
+  left: 1050px;
+}
+
+/* 8). NOUS CONTACTER */
+
+.sec_contact {
+  width: 1680px;
+  height: 663px;
+  top: 4413px;
+}
+
+.div_contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h4_contact {
+  top: 4473px;
+  left: 644px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-style: black;
+  font-size: 40px;
+  line-height: 36px;
+  letter-spacing: -1.5%;
+  color: #152237;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin: 30px;
+}
+
+.hr_contact {
+  border: 1px solid #44dd8a;
+  width: 350px;
+  height: 0px;
+  top: 4548px;
+  left: 665px;
+  margin-bottom: 40px;
+}
+
+.form_contact {
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nom_form_contact {
+  width: 621.06px;
+  height: 45.25px;
+  top: 4603px;
+  left: 172px;
+  color: #ffffff;
+  background-color: #152237;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+}
+
+.email_form_contact {
+  width: 598.75px;
+  height: 45.3px;
+  top: 4602px;
+  left: 909px;
+  color: #ffffff;
+  background-color: #152237;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+}
+
+.message_form_contact {
+  width: 1390.92px;
+  height: 194.64px;
+  top: 4704px;
+  left: 172px;
+  color: #ffffff;
+  background-color: #152237;
+  margin: 30px;
+  padding: 10px;
+  text-align: left;
+}
+
+.button_contact {
+  width: 351.56px;
+  height: 45.3px;
+  top: 4953.28px;
+  left: 664.43px;
+  margin: 20px;
+}
+
+.button_contact button {
+  width: 265.02px;
+  height: 20.39px;
+  top: 12.46px;
+  left: 43.27px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+  color: #152237;
+  background-color: #44dd8a;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px 20px;
+}
+
+.color_div_contact {
+  width: 1680px;
+  height: 0px;
+  border: 10px solid #41e0b9;
+}
+
+/* 9). FOOTER  */
+
+.sec_footer {
+  width: 1680px;
+  height: 489px;
+  top: 5076px;
+  background-color: #152237;
+}
+
+.div_all_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+}
+
+.img_footer {
+  margin-top: 30px;
+  top: 109px;
+  left: 96px;
+}
+
+.div_01_footer {
+  margin-top: 30px;
+  top: 120px;
+  left: 627px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.div_01_footer p {
+  margin-bottom: 22px;
+}
+
+.div_01_footer_ul {
+  list-style: none;
+}
+
+.div_01_footer_ul li {
+  margin: 8px 0px 8px 0px;
+}
+
+.div_02_footer {
+  margin-top: 30px;
+  top: 120px;
+  left: 865px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.div_02_footer p {
+  margin-bottom: 8px;
+}
+
+.div_02_footer_ul {
+  list-style: none;
+}
+
+.div_02_footer_ul li {
+  margin: 3px 0px 3px 0px;
+}
+
+.div_02_footer_ul li img {
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.hr_footer {
+  width: 1482px;
+  height: 2px;
+  top: 292px;
+  left: 96px;
+  border: 1px solid #44dd8a;
+  margin: auto;
+}
+
+.button_footer {
+  width: 130px;
+  height: 40px;
+  top: 120px;
+  left: 1448px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.connexion_footer {
+  top: 11px;
+  left: 25px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+  color: #152237;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.inscription_footer {
+  top: 11px;
+  left: 25px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+  color: #152237;
+  background: linear-gradient(rgba(68, 221, 138, 1), rgba(21, 183, 226, 1));
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.div_last_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright_footer {
+  width: 301px;
+  height: 24px;
+  top: 319px;
+  left: 96px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -1.5%;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.socialmedia_all_footer {
+  width: 297px;
+  height: 30px;
+  top: 332px;
+  left: 1281px;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-right: 70px;
+}
+
+.socialmedia_footer {
+  top: 332px;
+  left: 1503px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.socialmedia_footer p {
+  height: 24px;
+  top: 335px;
+  left: 1281px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: -1.5%;
+  color: #f5f5f5;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 393px) {
+  body {
+    overflow-x: hidden;
+  }
+  section,
+  header {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* 1). TITLE / NAVBAR */
+  .navbar {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    background-color: #152237;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 72px;
+    height: auto;
+  }
+
+  .formations,
+  #form-recherche,
+  .buttons {
+    display: none;
+  }
+
+  .navbar::after {
+    content: "☰";
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .banner {
+    width: 100%;
+    min-height: 80vh;
+    padding: 32px 20px;
+    background: linear-gradient(
+        rgba(68, 221, 138, 0.85),
+        rgba(21, 183, 226, 0.85)
+      ),
+      url("./assets/bg-header.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div_banner {
+    width: 100%;
+    text-align: center;
+  }
+
+  .div_banner h1 {
+    font-size: 28px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    color: #152237;
+  }
+
+  .div_banner p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 24px;
+    color: #152237;
+  }
+
+  .savoir_plus {
+    width: auto;
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+
+  /* 2). LES FORMATIONS POPULAIRES */
+
+  .sec_populaire {
+    width: 100%;
+    padding: 40px 16px;
+  }
+
+  .sec_populaire h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+
+  .populaires {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .div_populaire {
+    width: 100%;
+  }
+
+  .img_populaire {
+    width: 100%;
+    height: 180px;
+    background: #44dd8a;
+    border-radius: 6px;
+    position: relative;
+    margin-bottom: 12px;
+  }
+
+  .price_populaire {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #152237;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .price_populaire small {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+
+  .h4_populaire {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  .nom_populaire {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 6px;
+  }
+
+  .stars_populaire {
+    margin-bottom: 6px;
+  }
+
+  .stars_populaire img {
+    width: 90px;
+    height: auto;
+    display: block;
+  }
+
+  .desc_populaire {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+  }
+
+  .button_populaire {
+    margin: 40px auto 0;
+    display: block;
+    width: fit-content;
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  /* 3). LES FORMATIONS RECENTES  */
+
+  .sec_recentes {
+    width: 100%;
+    padding: 48px 16px;
+    background-color: #0e1b2e;
+  }
+
+  .sec_recentes h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 36px;
+  }
+
+  .recentes {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .div_recentes {
+    width: 100%;
+  }
+
+  .img_recentes {
+    width: 100%;
+    height: 190px;
+    background-color: #49e18a;
+    border-radius: 6px;
+    position: relative;
+    margin-bottom: 14px;
+  }
+
+  .price_recentes {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background: #ffffff;
+    color: #0e1b2e;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .price_recentes small {
+    font-size: 12px;
+    color: #6b7280;
+  }
+
+  .h4_recentes {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 4px;
+  }
+
+  .nom_recentes {
+    font-size: 14px;
+    color: #cbd5e1;
+    margin-bottom: 8px;
+  }
+
+  .stars_recentes {
+    margin-bottom: 8px;
+  }
+
+  .stars_recentes img {
+    width: 100px;
+    height: auto;
+    display: block;
+  }
+
+  .desc_recentes {
+    font-size: 15px;
+    line-height: 1.45;
+    color: #e5e7eb;
+  }
+
+  .button_recentes {
+    margin: 44px auto 0;
+    display: block;
+    padding: 12px 22px;
+    font-size: 14px;
+    background-color: #152237;
+    color: #ffffff;
+    border-radius: 6px;
+  }
+
+  /* 4). AVIS CLIENTS */
+
+  .sec_clients {
+    width: 100%;
+    padding: 48px 16px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .h2_clients {
+    font-size: 22px;
+    font-weight: 800;
+    color: #152237;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .div_clients {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div_juliette,
+  .div_camille {
+    width: 100%;
+    max-width: 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .div_juliette img,
+  .div_camille img {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+  }
+
+  .nom_juliette,
+  .nom_camille {
+    font-size: 17px;
+    font-weight: 600;
+    color: #152237;
+    margin-bottom: 8px;
+  }
+
+  .stars_juliette,
+  .stars_camille {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+  }
+
+  .stars_juliette img,
+  .stars_camille img {
+    width: 96px;
+    height: auto;
+  }
+
+  .desc_juliette,
+  .desc_camille {
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: #6b7280;
+    max-width: 300px;
+  }
+
+  /* 5). LES AVANTAGES KLIVIO */
+
+  .sec_avantages {
+    width: 100%;
+    padding: 30px 10px;
+    background-color: #f3f3f3;
+  }
+
+  .div_all_avantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .div_avantages {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div_avantages_h4 h4 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: #152237;
+    margin-bottom: 28px;
+  }
+
+  .div_avantages_list {
+    width: 100%;
+  }
+
+  .div_avantages_ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .div_avantages_ul li {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: #152237;
+    margin-bottom: 18px;
+    text-align: left;
+  }
+
+  .div_avantages_ul li img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-top: 3px;
+  }
+
+  .img_avantages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img_avantages img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+
+  /* 6). CRÉEZ VOS FORMATIONS */
+
+  .sec_formations {
+    width: 100vw;
+    background: #6ed9a6;
+    padding: 30px 0px;
+    margin: 0;
+  }
+
+  .div_all_formations {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .img_formations {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img_formations img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .div_formations {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .div_formations_h4 {
+    width: 100%;
+  }
+
+  .div_formations_h4 h4 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #0f2b46;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  .div_formations_list {
+    width: 100%;
+  }
+
+  .div_formations_ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div_formations_ul li {
+    display: flex;
+    align-items: flex-start;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #1c3a55;
+    text-align: left;
+  }
+
+  .div_formations_ul li img {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    margin-top: 3px;
+  }
+
+  /* 7). À PROPOS */
+
+  .sec_propos {
+    width: 100%;
+    padding: 32px 0px;
+  }
+
+  .div_all_propos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .div_propos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div_propos_h4 h4 {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .div_propos_p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div_propos_p p {
+    max-width: 320px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #4b5563;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .img_propos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img_propos img {
+    width: 120px;
+    height: auto;
+    opacity: 0.9;
+  }
+
+  .sec_propos,
+  .div_all_propos,
+  .div_propos,
+  .div_propos_h4,
+  .div_propos_p,
+  .img_propos {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .div_propos_p {
+    width: 100%;
+  }
+
+  .div_propos_p p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img_propos {
+    justify-content: center;
+  }
+
+  .img_propos img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sec_propos h4,
+  .sec_apropos h4 {
+    position: static !important;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 20px auto !important;
+    padding: 0 !important;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: #152237;
+  }
+
+  /* 8). NOUS CONTACTER */
+
+  .sec_contact {
+    width: 100%;
+    background: #0b1a33;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div_contact {
+    width: 92%;
+    max-width: 360px;
+    background: #f4f4f4;
+    padding: 24px 16px 28px;
+    box-sizing: border-box;
+  }
+
+  .h4_contact h4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    color: #0b1a33;
+    margin-bottom: 26px;
+  }
+
+  .hr_contact {
+    display: none;
+  }
+
+  .form_contact {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .nom_form_contact,
+  .email_form_contact {
+    width: 100%;
+    height: 44px;
+    background: #0f2a4f;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    font-size: 14px;
+    border-radius: 2px;
+  }
+
+  .message_form_contact {
+    width: 100%;
+    height: 140px;
+    background: #0f2a4f;
+    color: #ffffff;
+    padding: 12px 14px;
+    font-size: 14px;
+    border-radius: 2px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .button_contact {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button_contact button {
+    width: 100%;
+    height: 46px;
+    background: #3fd36b;
+    border: none;
+    color: #0b1a33;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+  }
+
+  .color_div_contact {
+    width: 100%;
+    height: 18px;
+    background: #3fd36b;
+    margin-top: 26px;
+  }
+
+  /* 9). FOOTER */
+
+  footer {
+    background: #0c2a45;
+    width: 100%;
+  }
+
+  .sec_footer {
+    padding: 48px 22px 28px;
+  }
+
+  .div_all_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 38px;
+  }
+
+  .img_footer img {
+    width: 140px;
+    margin-bottom: 8px;
+  }
+
+  .div_01_footer p,
+  .div_02_footer p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+
+  .div_01_footer_ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .div_01_footer_ul li {
+    font-size: 15px;
+    margin: 10px 0;
+    opacity: 0.9;
+  }
+
+  .div_02_footer_ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .div_02_footer_ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 14px;
+    margin: 12px 0;
+    opacity: 0.9;
+  }
+
+  .div_02_footer_ul img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(1.2);
+  }
+
+  .button_footer {
+    display: none;
+  }
+
+  .hr_footer {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    margin: 30px 0 18px;
+  }
+
+  .div_last_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .copyright_footer p {
+    font-size: 13px;
+    opacity: 0.7;
+  }
+
+  .socialmedia_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .socialmedia_footer p {
+    font-size: 14px;
+    margin: 0;
+    opacity: 0.9;
+  }
+
+  .socialmedia_footer a {
+    margin: 0 8px;
+  }
+
+  .socialmedia_footer img {
+    width: 22px;
+    height: 22px;
+    opacity: 0.85;
+  }
+}
